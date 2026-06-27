@@ -1,7 +1,7 @@
 import asyncio
 
-import policy
-from services import db_service, acoustic_service, lyrics_service, llm_service, asr_service
+from core import policy
+from services import db_service, acoustic_service, audio_source, lyrics_service, llm_service, asr_service
 
 
 async def build_verdict(isrc: str, name: str, artist: str) -> dict:
@@ -14,54 +14,55 @@ async def build_verdict(isrc: str, name: str, artist: str) -> dict:
       missing_signals : subset of {"semantic", "acoustic"} that did not resolve
       acoustic_profile / semantic_profile : kept for the stored label
     """
-    print("🌐 Pulling acoustic features and lyrics concurrently...")
-    acoustics, lyrics = await asyncio.gather(
-        acoustic_service.get_features(isrc),
+    print("🌐 Downloading audio and pulling lyrics concurrently...")
+    audio_path, lyrics = await asyncio.gather(
+        audio_source.download_audio(isrc),
         lyrics_service.get_text(isrc, name, artist),
     )
 
     missing = set()
 
-    # --- Acoustic / affective path -------------------------------------------
-    affect = acoustic_service.derive_affect(acoustics)   # {} if unavailable
-    if not acoustics.get("available"):
-        missing.add("acoustic")
-        print("   ↳ Audio features unavailable.")
-    else:
-        print(f"   ↳ Affect: intensity={affect['sonic_intensity']}/10, "
-              f"darkness={affect['affective_darkness']}/10")
-
-    # --- Semantic / lyrics path (the no-lyrics fork) --------------------------
-    semantic_scores = {}
-    semantic_confidence = 0.0
-
-    if lyrics:
-        result = await llm_service.analyze_lyrics(lyrics)
-        if result is None:
-            missing.add("semantic")          # LLM failed -> do NOT fake safe scores
+    try:
+        # --- Acoustic / affective path ----------------------------------------
+        acoustics = acoustic_service.extract_features(audio_path) if audio_path else {"available": False}
+        affect = acoustic_service.derive_affect(acoustics)   # {} if unavailable
+        if not acoustics.get("available"):
+            missing.add("acoustic")
+            print("   ↳ Audio features unavailable.")
         else:
-            semantic_scores = result["scores"]
-            semantic_confidence = result["confidence"]
-    elif not acoustic_service.has_vocals(acoustics):
-        # Confirmed instrumental: there is genuinely no semantic content to
-        # verify, so neutral-low semantics are legitimate (not fail-open).
-        print("   ↳ Confirmed instrumental; deciding on audio affect alone.")
-        semantic_scores = {dim: 1 for dim in policy.SEMANTIC_DIMS}
-        semantic_confidence = 1.0
-    else:
-        # Vocals present but no lyrics -> try to recover them before giving up.
-        print("   ↳ Vocals present, no lyrics found; attempting ASR recovery...")
-        recovered = await asr_service.transcribe(isrc)
-        if recovered:
-            result = await llm_service.analyze_lyrics(recovered)
+            print(f"   ↳ Affect: intensity={affect['sonic_intensity']}/10, "
+                  f"darkness={affect['affective_darkness']}/10")
+
+        # --- Semantic / lyrics path (ASR-based no-lyrics fork) ------------------
+        semantic_scores = {}
+        semantic_confidence = 0.0
+
+        if lyrics:
+            result = await llm_service.analyze_lyrics(lyrics)
             if result is None:
-                missing.add("semantic")
+                missing.add("semantic")          # LLM failed -> do NOT fake safe scores
             else:
                 semantic_scores = result["scores"]
                 semantic_confidence = result["confidence"]
         else:
-            missing.add("semantic")          # unverified vocals -> parent decides
-            print("   ↳ ASR recovered nothing; semantic signal unverified.")
+            print("   ↳ No lyrics found; attempting ASR recovery...")
+            recovered = await asr_service.transcribe(audio_path) if audio_path else ""
+            if recovered:
+                result = await llm_service.analyze_lyrics(recovered)
+                if result is None:
+                    missing.add("semantic")
+                else:
+                    semantic_scores = result["scores"]
+                    semantic_confidence = result["confidence"]
+            else:
+                # No vocal content recovered: there is genuinely no semantic
+                # content to verify, so neutral-low semantics are legitimate
+                # (not fail-open).
+                print("   ↳ No vocal content found; deciding on audio affect alone.")
+                semantic_scores = {dim: 1 for dim in policy.SEMANTIC_DIMS}
+                semantic_confidence = 1.0
+    finally:
+        audio_source.cleanup(audio_path)
 
     # --- Assemble scores + overall confidence --------------------------------
     scores = {**semantic_scores, **affect}

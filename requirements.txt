@@ -1,0 +1,10 @@
+httpx
+python-dotenv
+youtube_transcript_api
+google-api-python-client
+google-auth-oauthlib
+faster-whisper
+yt-dlp
+librosa
+numba==0.60.0
+llvmlite==0.43.0

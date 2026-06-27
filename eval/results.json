@@ -1,0 +1,168 @@
+{
+  "bands": {
+    "preschool_5_7": {
+      "confusion_matrix": {
+        "approve": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        },
+        "block": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        },
+        "review": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        }
+      },
+      "escalation_rate": null,
+      "n_tracks": 0,
+      "n_unlabeled": 0,
+      "over_block_rate": null,
+      "unsafe_approval_rate": null
+    },
+    "toddler_0_4": {
+      "confusion_matrix": {
+        "approve": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        },
+        "block": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        },
+        "review": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        }
+      },
+      "escalation_rate": null,
+      "n_tracks": 0,
+      "n_unlabeled": 0,
+      "over_block_rate": null,
+      "unsafe_approval_rate": null
+    },
+    "tween_8_12": {
+      "confusion_matrix": {
+        "approve": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        },
+        "block": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        },
+        "review": {
+          "approve": 0,
+          "block": 0,
+          "review": 0
+        }
+      },
+      "escalation_rate": null,
+      "n_tracks": 0,
+      "n_unlabeled": 0,
+      "over_block_rate": null,
+      "unsafe_approval_rate": null
+    }
+  },
+  "missing": [
+    "NGMd3kfoGVo",
+    "BNe-_ZUc3as",
+    "UiIzAb4u5a0",
+    "WxQlF-d51m0",
+    "-J5-Idg2wbI",
+    "sDOWVGgnje0",
+    "cZqWHCUonoM",
+    "hzDHcfkhTZ4",
+    "7jQ4Jx7ywA4",
+    "0HUb0xoSweI",
+    "BeWNbRMFLBY",
+    "A7J8vMh7vb0",
+    "p_bmgtc3rgI",
+    "YHvmT_qcftk",
+    "vPnTNK_hhIY",
+    "0c7Wo-K12NA",
+    "Hn3r_cUm-0M",
+    "CwENVIQuwto",
+    "TQV8tFIQRtg",
+    "_v-hjaiHfII",
+    "8RUaSdJNEms",
+    "qoQLkXm7uQ4",
+    "DGDAR9KyiKI",
+    "2JPhWaWoM1E",
+    "x7ILKYnFyHc",
+    "hVJuUIoRMok",
+    "vTcVQQqJvJU",
+    "OeoAqQ9h6JA",
+    "_TCOD1c1zls",
+    "-jTjB701AYQ",
+    "BaPpw4oyzY4",
+    "rglo3qHsbpI",
+    "WU99dn2qyoc",
+    "hXeKLYN8kHg",
+    "3ICVjtAtBoE",
+    "55GNFmtS-O0",
+    "FiIVAwiT3Fg",
+    "sOa-GsSdo7Y",
+    "DhDo-RJJSqA",
+    "rzO0LZFKswI",
+    "f4ctbZhOZYM",
+    "1LiewoqxBzs",
+    "HudqcdjHF9k",
+    "1oIGwT92uyA",
+    "ktK2NGUJRCE",
+    "YhMGHd9WEiA",
+    "8bAx4P-FD04",
+    "6rhebYULWas",
+    "biWLj2gAnRs",
+    "nN1t191bM2c",
+    "WStKuUcjTeE",
+    "3EWdeQsBh98",
+    "3h9oD2vMJEo",
+    "k2LHrF_lfJA",
+    "kZ41iy-9GU8",
+    "k1e-GEyeA6E",
+    "8UJD_B9zWrI",
+    "VboyjAZFBT8",
+    "6wRXEzNnK9k",
+    "xbs-vpKd8zM",
+    "OUVOEQTNooM",
+    "t3UYnqv2pGw",
+    "GjIaoNsDQxY",
+    "4FKez1PvVnY",
+    "b3-WSpL9f78",
+    "T3eIRNKStHw",
+    "Kndhe9I9wOQ",
+    "Tvneu-FigGo",
+    "N1WM2LO23J8",
+    "GXHfZd12Pr4",
+    "jbxtNg7n-zc",
+    "_TwdNtLEsuM",
+    "hWzqIpATE48",
+    "uZdfK_navoU",
+    "-rtzqxdggco",
+    "KIJkvw2kfDE",
+    "8pSzHSgy3Qo",
+    "6jFnWmbqcho",
+    "EbxikfrrDOI",
+    "ViJh6gsLdYk",
+    "3wLRVhzDHfg",
+    "YdCHqE87Dx8",
+    "jmEeQm24sxo",
+    "BMEWm-3HhGc",
+    "OGFoX8_O3uU"
+  ],
+  "unsafe_approval_by_category": {
+    "preschool_5_7": {},
+    "toddler_0_4": {},
+    "tween_8_12": {}
+  }
+}

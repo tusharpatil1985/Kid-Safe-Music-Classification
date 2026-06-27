@@ -1,0 +1,1018 @@
+{
+  "-J5-Idg2wbI": {
+    "confidence": 0.85,
+    "missing_signals": [
+      "acoustic"
+    ],
+    "scores": {
+      "behavioral_defiance": 2,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 4,
+      "substance_reference": 3
+    }
+  },
+  "-jTjB701AYQ": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "-rtzqxdggco": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 10,
+      "relational_aggression": 8,
+      "romantic_sexual_innuendo": 7,
+      "sonic_intensity": 8,
+      "substance_reference": 8
+    }
+  },
+  "0HUb0xoSweI": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 2,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "0c7Wo-K12NA": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "1LiewoqxBzs": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 3,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 8,
+      "substance_reference": 2
+    }
+  },
+  "1oIGwT92uyA": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 1,
+      "relational_aggression": 3,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "2JPhWaWoM1E": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "3EWdeQsBh98": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 8,
+      "relational_aggression": 6,
+      "romantic_sexual_innuendo": 7,
+      "sonic_intensity": 8,
+      "substance_reference": 7
+    }
+  },
+  "3ICVjtAtBoE": {
+    "confidence": 0.8,
+    "missing_signals": [
+      "semantic"
+    ],
+    "scores": {
+      "affective_darkness": 5,
+      "sonic_intensity": 8
+    }
+  },
+  "3h9oD2vMJEo": {
+    "confidence": 0.6,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 4,
+      "relational_aggression": 7,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 7,
+      "substance_reference": 1
+    }
+  },
+  "3wLRVhzDHfg": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 9,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 8,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "4FKez1PvVnY": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 9,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 7,
+      "substance_reference": 8
+    }
+  },
+  "55GNFmtS-O0": {
+    "confidence": 0.85,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 2,
+      "relational_aggression": 5,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "6jFnWmbqcho": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 10,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 9,
+      "substance_reference": 8
+    }
+  },
+  "6rhebYULWas": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "6wRXEzNnK9k": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 9,
+      "relational_aggression": 8,
+      "romantic_sexual_innuendo": 9,
+      "sonic_intensity": 7,
+      "substance_reference": 4
+    }
+  },
+  "7jQ4Jx7ywA4": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "8RUaSdJNEms": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 1,
+      "relational_aggression": 2,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "8UJD_B9zWrI": {
+    "confidence": 0.7,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 5,
+      "sonic_intensity": 7,
+      "substance_reference": 1
+    }
+  },
+  "8bAx4P-FD04": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 7,
+      "behavioral_defiance": 10,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "8pSzHSgy3Qo": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 7,
+      "behavioral_defiance": 9,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "A7J8vMh7vb0": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 7,
+      "behavioral_defiance": 2,
+      "relational_aggression": 6,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "BMEWm-3HhGc": {
+    "confidence": 0.8,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 3,
+      "behavioral_defiance": 7,
+      "relational_aggression": 6,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 9,
+      "substance_reference": 2
+    }
+  },
+  "BNe-_ZUc3as": {
+    "confidence": 1.0,
+    "missing_signals": [
+      "acoustic"
+    ],
+    "scores": {
+      "behavioral_defiance": 2,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "substance_reference": 1
+    }
+  },
+  "BaPpw4oyzY4": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 6,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 6,
+      "substance_reference": 8
+    }
+  },
+  "BeWNbRMFLBY": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "CwENVIQuwto": {
+    "confidence": 0.7,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 3,
+      "relational_aggression": 2,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 4
+    }
+  },
+  "DGDAR9KyiKI": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 8,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "DhDo-RJJSqA": {
+    "confidence": 0.8,
+    "missing_signals": [
+      "semantic"
+    ],
+    "scores": {
+      "affective_darkness": 6,
+      "sonic_intensity": 8
+    }
+  },
+  "EbxikfrrDOI": {
+    "confidence": 0.8,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 7,
+      "sonic_intensity": 8,
+      "substance_reference": 2
+    }
+  },
+  "FiIVAwiT3Fg": {
+    "confidence": 0.85,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 4,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "GXHfZd12Pr4": {
+    "confidence": 0.7,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 8,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 7,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "GjIaoNsDQxY": {
+    "confidence": 0.8,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 10,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 8,
+      "sonic_intensity": 8,
+      "substance_reference": 3
+    }
+  },
+  "Hn3r_cUm-0M": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 1,
+      "relational_aggression": 5,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "HudqcdjHF9k": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 3,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "KIJkvw2kfDE": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 7,
+      "relational_aggression": 7,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 9
+    }
+  },
+  "Kndhe9I9wOQ": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 7,
+      "behavioral_defiance": 10,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 6
+    }
+  },
+  "N1WM2LO23J8": {
+    "confidence": 0.6,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 9,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 4,
+      "sonic_intensity": 8,
+      "substance_reference": 8
+    }
+  },
+  "NGMd3kfoGVo": {
+    "confidence": 1.0,
+    "missing_signals": [
+      "acoustic"
+    ],
+    "scores": {
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 4,
+      "substance_reference": 1
+    }
+  },
+  "OGFoX8_O3uU": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 8,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 7,
+      "substance_reference": 9
+    }
+  },
+  "OUVOEQTNooM": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 10,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 9,
+      "sonic_intensity": 9,
+      "substance_reference": 9
+    }
+  },
+  "OeoAqQ9h6JA": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "T3eIRNKStHw": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 8,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 9,
+      "substance_reference": 4
+    }
+  },
+  "TQV8tFIQRtg": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 6,
+      "sonic_intensity": 7,
+      "substance_reference": 1
+    }
+  },
+  "Tvneu-FigGo": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 10,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 7
+    }
+  },
+  "UiIzAb4u5a0": {
+    "confidence": 0.95,
+    "missing_signals": [
+      "acoustic"
+    ],
+    "scores": {
+      "behavioral_defiance": 7,
+      "relational_aggression": 5,
+      "romantic_sexual_innuendo": 1,
+      "substance_reference": 1
+    }
+  },
+  "VboyjAZFBT8": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 10,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 9,
+      "substance_reference": 9
+    }
+  },
+  "ViJh6gsLdYk": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 9,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 8,
+      "sonic_intensity": 8,
+      "substance_reference": 6
+    }
+  },
+  "WStKuUcjTeE": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 9,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 7
+    }
+  },
+  "WU99dn2qyoc": {
+    "confidence": 0.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 7,
+      "substance_reference": 1
+    }
+  },
+  "WxQlF-d51m0": {
+    "confidence": 1.0,
+    "missing_signals": [
+      "acoustic"
+    ],
+    "scores": {
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "substance_reference": 1
+    }
+  },
+  "YHvmT_qcftk": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 4,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "YdCHqE87Dx8": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 4,
+      "relational_aggression": 6,
+      "romantic_sexual_innuendo": 6,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "YhMGHd9WEiA": {
+    "confidence": 0.8,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 7,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 9
+    }
+  },
+  "_TCOD1c1zls": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 4,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "_TwdNtLEsuM": {
+    "confidence": 0.85,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 8,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 9,
+      "sonic_intensity": 8,
+      "substance_reference": 9
+    }
+  },
+  "_v-hjaiHfII": {
+    "confidence": 0.98,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "b3-WSpL9f78": {
+    "confidence": 0.6,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 2,
+      "relational_aggression": 4,
+      "romantic_sexual_innuendo": 7,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "biWLj2gAnRs": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 2,
+      "relational_aggression": 2,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 7
+    }
+  },
+  "cZqWHCUonoM": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 2,
+      "relational_aggression": 3,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "f4ctbZhOZYM": {
+    "confidence": 0.7,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 8,
+      "relational_aggression": 5,
+      "romantic_sexual_innuendo": 9,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "hVJuUIoRMok": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 4,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "hWzqIpATE48": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 7,
+      "behavioral_defiance": 2,
+      "relational_aggression": 4,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "hXeKLYN8kHg": {
+    "confidence": 0.6,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 7,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 5,
+      "substance_reference": 1
+    }
+  },
+  "hzDHcfkhTZ4": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 9,
+      "substance_reference": 1
+    }
+  },
+  "jbxtNg7n-zc": {
+    "confidence": 0.85,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 3,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 9,
+      "substance_reference": 6
+    }
+  },
+  "jmEeQm24sxo": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 10,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 9,
+      "sonic_intensity": 7,
+      "substance_reference": 10
+    }
+  },
+  "k1e-GEyeA6E": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 4,
+      "behavioral_defiance": 8,
+      "relational_aggression": 7,
+      "romantic_sexual_innuendo": 8,
+      "sonic_intensity": 8,
+      "substance_reference": 10
+    }
+  },
+  "k2LHrF_lfJA": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 9,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 2
+    }
+  },
+  "kZ41iy-9GU8": {
+    "confidence": 0.8,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 7,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 8,
+      "sonic_intensity": 8,
+      "substance_reference": 10
+    }
+  },
+  "ktK2NGUJRCE": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 7,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "nN1t191bM2c": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 10,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 9,
+      "substance_reference": 9
+    }
+  },
+  "p_bmgtc3rgI": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "qoQLkXm7uQ4": {
+    "confidence": 0.98,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "rglo3qHsbpI": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "rzO0LZFKswI": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "sDOWVGgnje0": {
+    "confidence": 1.0,
+    "missing_signals": [
+      "acoustic"
+    ],
+    "scores": {
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 4,
+      "substance_reference": 1
+    }
+  },
+  "sOa-GsSdo7Y": {
+    "confidence": 0.9,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 3,
+      "relational_aggression": 9,
+      "romantic_sexual_innuendo": 8,
+      "sonic_intensity": 8,
+      "substance_reference": 7
+    }
+  },
+  "t3UYnqv2pGw": {
+    "confidence": 0.85,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 2,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 7,
+      "substance_reference": 1
+    }
+  },
+  "uZdfK_navoU": {
+    "confidence": 0.85,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 9,
+      "relational_aggression": 10,
+      "romantic_sexual_innuendo": 10,
+      "sonic_intensity": 8,
+      "substance_reference": 9
+    }
+  },
+  "vPnTNK_hhIY": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 3,
+      "relational_aggression": 4,
+      "romantic_sexual_innuendo": 3,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "vTcVQQqJvJU": {
+    "confidence": 1.0,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 2,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "x7ILKYnFyHc": {
+    "confidence": 0.95,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 5,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  },
+  "xbs-vpKd8zM": {
+    "confidence": 0.8,
+    "missing_signals": [],
+    "scores": {
+      "affective_darkness": 6,
+      "behavioral_defiance": 1,
+      "relational_aggression": 1,
+      "romantic_sexual_innuendo": 1,
+      "sonic_intensity": 8,
+      "substance_reference": 1
+    }
+  }
+}
