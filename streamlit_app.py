@@ -12,6 +12,7 @@ import os
 
 import streamlit as st
 
+# streamlit secrets are read at import time, so we need to set them in os.environ
 for k in ("GEMINI_API_KEY", "SUPABASE_URL", "SUPABASE_KEY"):
     if k in st.secrets:
         os.environ[k] = st.secrets[k]
