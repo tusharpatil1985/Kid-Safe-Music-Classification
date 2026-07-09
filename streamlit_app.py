@@ -1,5 +1,5 @@
 """
-Streamlit test harness for the lyrics classifier.
+Streamlit test harness for the lyrics classifier (private testing build).
 
 Lyrics-only: exercises services.llm_service.analyze_lyrics + core.policy, the
 same functions the real pipeline uses. Never imports the audio path
@@ -7,29 +7,39 @@ same functions the real pipeline uses. Never imports the audio path
 whisper dependency here, only the semantic scorer and the decision layer.
 """
 
-import asyncio
 import os
 
 import streamlit as st
 
-# streamlit secrets are read at import time, so we need to set them in os.environ
-for k in ("GEMINI_API_KEY", "SUPABASE_URL", "SUPABASE_KEY"):
+# Secrets bridge: must run before importing config/core.policy/services.llm_service,
+# since those read os.getenv at import time. Missing keys are fine locally, where
+# .env (via config.py's load_dotenv()) fills them in instead.
+for k in ("GEMINI_API_KEY", "SUPABASE_URL", "SUPABASE_KEY", "APP_PASSWORD"):
     if k in st.secrets:
         os.environ[k] = st.secrets[k]
-# then import core.policy / services.llm_service, which read os.getenv
 
-# Must happen before importing config/services.llm_service: GEMINI_API_KEY is
-# read as a module-level constant at import time in config.py.
-if "GEMINI_API_KEY" not in os.environ:
-    try:
-        os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
-    except (KeyError, FileNotFoundError):
-        pass  # local run without secrets.toml; config.py falls back to .env
+import asyncio
 
 from core import policy
 from services.llm_service import analyze_lyrics
 
 st.set_page_config(page_title="Kid-Safe Music Classifier", layout="wide")
+
+# --- Private-testing gate --------------------------------------------------
+# Only enforced when APP_PASSWORD is configured (secrets or env); local runs
+# without it configured stay open so this doesn't block plain dev use.
+_app_password = os.getenv("APP_PASSWORD")
+if _app_password:
+    if not st.session_state.get("authed"):
+        st.title("Kid-Safe Music Classifier")
+        entered = st.text_input("Password", type="password")
+        if entered:
+            if entered == _app_password:
+                st.session_state["authed"] = True
+                st.rerun()
+            else:
+                st.error("Wrong password.")
+        st.stop()
 
 DECISION_RENDER = {
     "approve": st.success,
@@ -61,7 +71,12 @@ if st.button("Classify", type="primary"):
         with st.spinner("Scoring lyrics..."):
             result = asyncio.run(analyze_lyrics(lyrics))
 
-        missing_signals = {"acoustic"}  # audio is never gathered by this tool
+        # No audio signal is ever gathered on web, so acoustic is genuinely
+        # missing on every run -- recording that (rather than an empty set)
+        # is what keeps toddler/preschool bands, which gate on it, from
+        # silently approving on lyrics alone. See core/policy.py's
+        # completeness gate and CLAUDE.md rule 1 (never fail open).
+        missing_signals = {"acoustic"}
         if result is None:
             scores, confidence = {}, 0.0
             missing_signals.add("semantic")
@@ -78,7 +93,7 @@ if st.button("Classify", type="primary"):
 
 if "decisions" in st.session_state:
     if st.session_state["result"] is None:
-        st.error("Couldn't classify lyrics (LLM call failed) — treating semantic signal as missing.")
+        st.error("Couldn't classify lyrics — routed to review.")
 
     if not selected_bands:
         st.info("Select at least one age band in the sidebar.")
