@@ -3,6 +3,8 @@ credentials.json
 .env
 *.key
 *.pem
+secrets.toml
+cookies.txt
 secrets/
 
 # Python
