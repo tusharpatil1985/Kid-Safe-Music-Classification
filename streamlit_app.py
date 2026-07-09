@@ -12,6 +12,11 @@ import os
 
 import streamlit as st
 
+for k in ("GEMINI_API_KEY", "SUPABASE_URL", "SUPABASE_KEY"):
+    if k in st.secrets:
+        os.environ[k] = st.secrets[k]
+# then import core.policy / services.llm_service, which read os.getenv
+
 # Must happen before importing config/services.llm_service: GEMINI_API_KEY is
 # read as a module-level constant at import time in config.py.
 if "GEMINI_API_KEY" not in os.environ:
